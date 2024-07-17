@@ -1,0 +1,59 @@
+.ql-toolbar .ql-stroke {
+    fill: none;
+    stroke: #fff;
+  }
+  
+  .ql-toolbar .ql-fill {
+    fill: #fff;
+    stroke: none;
+  }
+  
+  .ql-toolbar .ql-picker {
+    color: #fff;
+  }
+  .ql-picker-options{
+    color: black;
+  }
+
+  .ql-picker-label:hover{
+    color: #F32B72;
+  }
+  button:hover .ql-stroke,
+  .ql-picker-label:hover .ql-stroke {
+    fill: none;
+    stroke: #F32B72 !important;
+  }
+  
+  .ql-active .ql-stroke {
+    fill: none;
+    stroke: #F32B72 !important;
+  }
+  
+  button:hover .ql-fill,
+  .ql-picker-label:hover .ql-fill {
+    fill: #F32B72 !important;
+    stroke: none;
+  }
+  
+  .ql-active .ql-fill {
+    fill: #F32B72 !important;
+    stroke: none;
+  }
+  .ql-snow.ql-toolbar button:hover,
+.ql-snow .ql-toolbar button:hover,
+.ql-snow.ql-toolbar button:focus,
+.ql-snow .ql-toolbar button:focus,
+.ql-snow.ql-toolbar button.ql-active,
+.ql-snow .ql-toolbar button.ql-active,
+.ql-snow.ql-toolbar .ql-picker-label:hover,
+.ql-snow .ql-toolbar .ql-picker-label:hover,
+.ql-snow.ql-toolbar .ql-picker-label.ql-active,
+.ql-snow .ql-toolbar .ql-picker-label.ql-active,
+.ql-snow.ql-toolbar .ql-picker-item:hover,
+.ql-snow .ql-toolbar .ql-picker-item:hover,
+.ql-snow.ql-toolbar .ql-picker-item.ql-selected,
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected {
+  color: #F32B72;
+  fill: #F32B72 !important;
+  stroke: none;
+}
